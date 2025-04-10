@@ -1,9 +1,10 @@
 from flask import Flask
-app = Flask(_name_)
+
+app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World! Welcome to my Flask app on AWS!"
+    return "Hello 12218890!"  # Replace with your student number
 
-if _name_ == "_main_":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run()
